@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    height: 60px;
+    background-color: rgba(246,248,252,255);
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.logo i{
+    font-size: 24px;
+}
+.logo img{
+    height: 46px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #eaf1fb;
+}
+.topbox{
+    border-radius: 24px;
+    width: 89%;
+    height: 100%;
+    border: none;
+    background-color: #eaf1fb;
+    font-size: 20px;
+    padding-left: 7px;
+    outline: none;
+}
+
+i:hover{
+    cursor: pointer;
+}
+.searchBar i{
+    font-size: 20px;
+    padding-left: 7px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.fa-gear{
+    padding-left: 5px;
+} 
+
+.fa-magnifying-glass{
+    margin-left: 5px;
+    
+}
+main{
+    display: flex;
+}
+.sidebar{  
+    background-color: rgba(246,248,252,255);
+}
+.sidebar button{
+    display: flex;
+    margin-left: 10px;
+    padding-left: 16px;
+    background-color: #c2e7ff;
+    border: none;
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sidebar button:hover{
+    box-shadow: #c9cbcc 2px 2px 2px 2px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 15px;
+    height:1000px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+nav div{
+    padding-left: 30px;
+    width: 85%;
+    font-size: 17px;
+    /* border: 2px solid black; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+    color: #848788;
+}
+
+.choosen{
+    background-color: #c2e7ff ;
+    color: black;
+}
+nav div:hover {
+    background-color: #c2e7ff ;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(246,248,252,255); */
+  
+}
+.topleft button{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 3px;
+}
+.top{
+    display: flex;
+    align-items: center;  
+    height: 50px;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-right: 5px;
+    padding-right: 5px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+.topleft{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.fa-rotate-right{
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+.fa-ellipsis-vertical{
+    padding-top:2px;
+}
+.topright{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+.topright p{
+    font-size: 13px;
+    color:#848788 ;
+}
+
+.middle{
+    display: flex;  
+    align-items: center;
+    background-color: white;
+
+}
+.mails{
+    margin-top: -18px;
+
+    width: 170px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    background-color: white;
+    padding-left: 15px;
+}
+.mails:hover{
+    background-color: rgb(247, 244, 244);
+    cursor: pointer;
+}
+.primary{
+    border-bottom: 4px solid;
+    border-color: #3344e1 ;
+    color:  #3344e1;
+}
+
+.bottom{
+    display: block;
+}
+.message{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+
+}
+.initial{
+    display: flex;
+    /* border: 2px solid black; */
+    gap: 10px;
+}
+.message h3{
+    /* border: 2px solid black; */
+    overflow: hidden;
+    text-overflow:clip;
+    margin-left: 20px;
+}
+.emailRow_message{
+    position: absolute;
+    max-width: 850px;
+    /* border: 2px solid black; */
+    left:500px;
+    overflow: hidden;
+    overflow-wrap: normal;
+}
+.emailRow_time{
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+.message:hover{
+    background-color: #f7f7f7;
+    box-shadow: black  2px 2px;
+}
+i:hover{
+}
